@@ -42,12 +42,20 @@ body{
         background-color: aliceblue;
         text-align: center;
         align-items: center;
-        
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        padding: 30pxs;
     }
 
 /* bagian tengah */
-
+.bag-tengah {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 
 .bag-tengah2 {
     background-color: gray;
