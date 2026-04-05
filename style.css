@@ -56,6 +56,11 @@ body{
     margin-bottom: 20px;
     margin-top: 10px;
 }
+    .keg-terbaru {
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
 
 .bag-tengah2 {
     background-color: gray;
@@ -63,3 +68,7 @@ body{
     justify-content: space-between;
     padding: 10px;
 }
+
+    .inc-ex-terbaru {
+        background-color: gray;
+    }
