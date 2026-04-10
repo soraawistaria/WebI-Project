@@ -89,10 +89,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     border-color: black;
     border: 10px;
-
+    justify-content: center;
+    border: 2px solid black;
 }
     #teks_katalog {
     display: flex;
@@ -100,3 +100,11 @@ body{
     align-items: center;
     text-align: center;
     }
+
+    .katalog img {
+        width: 130px;
+        height: 130px;
+        align-items: center;
+    }
+
+    /* job selanjutnya: linkan rekap, linkan tambah barang, linkan katalog disertai hover */
