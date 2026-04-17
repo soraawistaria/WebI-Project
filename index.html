@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title align="center">JUDUL WEBSITE</title>
+    <title align="center">Website Warung Permai</title>
 </head>
 <body>
-    <header>
-        <h1 id="judul">JUDUL WEBSITE</h1>
+    <header class="header">
+        <h1>WARUNG PERMAI</h1>
         <div class="bagian-atas">
-            <div class="inc-ex">
+            <div class="pem-peng">
                 <p>Pemasukan</p><br>
                 <p>RpXXX,-</p>
             </div>
             <div id="rekap">
                 <a href="rekap.html">
-                <text>Rekap Penjualan</text>
+                    Rekap Penjualan
                 </a>
             </div>
-            <div class="inc-ex">
+            <div class="pem-peng">
                 <p>Pengeluaran</p><br>
                 <p>RpXXX,-</p>
             </div>
         </div>
-    </header>
 
-    <main>
+
         <div class="bag-tengah">
             <div class="pp-terbaru">
                 Pemasukan terbaru
@@ -42,18 +41,19 @@
             </div>
         </div>
         <div class="bag-tengah2">
-            <div>
-                <input type="search">Cari barang
+            <div id="mencari">
+                Cari barang : <input type="search">
             </div>
-            <div>
-                Tambahkan barang
+            <div id="tmbhbrg">
+                <a href="tambahkanbarang.html">Tambahkan barang</a>
             </div>
         </div>
+    </header>
 
-
-    <br><br>
+<br><br>
 
         <!-- Tampilan Katalog -->
+    <main class="katalogs">
         <div class="katalog">
             <a href="katalog.html">
                 <img src="indomie.jpg"><br>
@@ -65,5 +65,10 @@
                 Ultramilk all variant</a>
         </div>
     </main>
+    <footer class="footer">
+        <div id="footer">
+            <p>Website by Amalia Soraya (2510817120002)</p>
+        </div>
+    </footer>
 </body>
 </html>
