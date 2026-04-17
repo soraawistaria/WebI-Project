@@ -79,13 +79,18 @@ body{
         padding-right: 10px;
         border-radius: 15px;
     }
+    #tmbhbrg {
+        background-color: rgb(255, 221, 0);
+        padding: 18px;
+        border-radius: 10px;
+    }
     #tmbhbrg a {
         padding: 10px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
     }
     #tmbhbrg:hover {
-        background-color: rgb(0, 0, 180);
+        background-color: rgb(255, 244, 174);
         text-decoration: underline;
     }
 
