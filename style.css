@@ -4,7 +4,7 @@ body{
     padding: 0px;
 }
 
-/* bagian atas homepage */
+/* header */
 #judul {
     align-items: center;
     text-align: center;
@@ -48,7 +48,7 @@ body{
         padding: 30pxs;
     }
 
-/* bagian tengah */
+/* main */
 .bag-tengah {
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ body{
         border-radius: 10px;
     }
 
-    .inc-ex-terbaru {
+    .pp-terbaru {
         background-color: gray;
         padding: 10px;
         padding-left: 5px;
