@@ -156,3 +156,26 @@ body{
     text-align: center;
     padding: 10px;
 }
+
+/* isi katalog */
+.bodykatalog {
+    background-color: rgb(255, 221, 0);
+    margin: 50px;
+
+}
+    .keterangan {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .keterangan img {
+        width: 350px;
+        height: 350px;
+    }
+    .keterangan h1 {
+        font-size: 50px;
+    }
+    .keterangan p {
+        font-size: 35px;
+    }
+
